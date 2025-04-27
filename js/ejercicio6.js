@@ -1,3 +1,5 @@
+//Usa un bucle para imprimir los números del 1 al 50. Si el número es divisible entre 3, imprime "Fizz". Si es divisible entre 5, imprime "Buzz". Si es divisible entre ambos, imprime "FizzBuzz".
+
 for (let i = 1; i <= 50; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");

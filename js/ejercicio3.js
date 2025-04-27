@@ -1,3 +1,5 @@
+//Crea un programa que pida al usuario un número del 1 al 100 y use un bucle para imprimir la tabla de multiplicar de ese número. Si la multiplicación da como resultado un número mayor a 1000, detén el bucle.
+
 let numero = parseInt(prompt("Introduce un número entre 1 y 100:"));
 
 if (numero >= 1 && numero <= 100) {
